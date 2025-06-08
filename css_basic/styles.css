@@ -1,11 +1,15 @@
 .body{
     display: flex;
     flex-direction: column;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller
 }
 main{
     display: flex;
     flex-direction: row;
     flex: auto;
+
 }
 article{
     flex: 2;
@@ -14,4 +18,8 @@ article{
 aside{
     flex: 1;
     overflow-y: auto
+}
+.a{
+    color: blue;
+    text-decoration: none;
 }
